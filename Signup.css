@@ -4,17 +4,19 @@ body{
 	background: url(Background1.jpg);
 	background-size: cover;
 }
-.signin{
+
+.signup{
 	background: rgba(44,62,80,0.7);
 	padding: 40px;
 	width: 250px;
+	height: 430px;
 	margin: auto;
 	margin-top: 80px;
-	height: 400px
-	margin-left:180x;
+	margin-left: 180px;
+	margin:0 auto;
+	margin-top: 90px;
 }
-form
-{
+form{
 	width: 240px;
 	text-align: center;
 }
@@ -32,6 +34,7 @@ input{
 	outline: none;
 	color:#fff;
 }
+
 input[type=button]{
 	border:none;
 	width: 190px;
@@ -48,19 +51,7 @@ input[type=button]:hover{
 	background-color: black;
 }
 h2{
-	color: white;
-}
-a{
-	color:yellow;
-	text-decoration: blink;
-}
-a:hover{
-	color: skyblue;
-}
-.container{
-	display: flex;
-	flex-direction: row;
-	width: 100%;
+	color:#000; 
 }
 ::placeholder{
 	color: aliceblue;
