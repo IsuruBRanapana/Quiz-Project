@@ -66,3 +66,13 @@ a:hover{
 	color: aliceblue;
 	opacity: 0.8;
 }
+#home{
+	background: rgba(44,62,80,0.7);
+	padding: 40px;
+	width: 250px;
+	margin: auto;
+	margin-left:auto;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
