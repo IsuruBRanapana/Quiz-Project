@@ -1,3 +1,4 @@
+<?php include('server.php')?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -47,7 +48,8 @@
 </head>
 <body>
 	<div class="signup">
-		<form action="Signup.php" method="post">
+		<form action="Signup.php" method="POST">
+            <?php include('errors.php')?>
 			<h2 style="color: #fff;">Sign Up</h2>
 			<input type="text" name="username_1" placeholder="First name" required>
 			<br>
