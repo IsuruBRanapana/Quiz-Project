@@ -19,8 +19,16 @@
 
 			$num=rand(0,4);
 			echo $ques[$num];
-			if ($num==1) {
+			if ($num==0) {
 				header('Location: ques1.php');
+			}elseif ($num==1) {
+				header('Location: ques2.php');
+			}elseif ($num==2) {
+				header('Location: ques3.php');
+			}elseif ($num==3) {
+				header('Location: ques4.php');
+			}elseif ($num==4) {
+				header('Location: ques5.php');
 			}
 	 ?>
 </body>

@@ -8,6 +8,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
 </head>
 <body>
+	<div>
+		<form>
 	<?php 
 		$ans=array(4);
 		$ans[0]='1';
@@ -16,11 +18,15 @@
 		$ans[3]='4';
 		
 		shuffle($ans);
+
 		for ($i=0; $i <4 ; $i++) { 
 			echo "<input type='radio' name='answer'>".$ans[$i]."<br>";	
 		}
+		echo "<input type='submit' name='submit' value='Check'>";
 
 	 ?>
+	 </form>
+	 </div>
 
 </body>
 </html>
