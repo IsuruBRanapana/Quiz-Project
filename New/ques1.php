@@ -8,21 +8,20 @@
 	<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
 </head>
 <body>
-	<h1>Users</h1>
 	<?php 
-			$ques=array(5);
-			$ques[0]='login.php';
-			$ques[1]='2';
-			$ques[2]='3';
-			$ques[3]='4';
-			$ques[4]='5';
+		$ans=array(4);
+		$ans[0]='1';
+		$ans[1]='2';
+		$ans[2]='3';
+		$ans[3]='4';
+		
+		shuffle($ans);
+		for ($i=0; $i <4 ; $i++) { 
+			echo "<input type='radio' name='answer'>".$ans[$i]."<br>";	
+		}
 
-			$num=rand(0,4);
-			echo $ques[$num];
-			if ($num==1) {
-				header('Location: ques1.php');
-			}
 	 ?>
+
 </body>
 </html>
 <?php mysqli_close($connection); ?>
